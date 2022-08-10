@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@sanity/client": "^3.3.3",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "github:stripe/stripe-js",
+    "canvas": "^2.9.3",
+    "confetti": "^1.1.5",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "stripe": "^10.1.0"
+  }
+}
