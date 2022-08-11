@@ -1,7 +1,9 @@
 import React from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import { client, urlFor } from '../../lib/client';
+import { Product } from '../../components';
 
+import { products } from '../../pages';
 const ProductDetails = ({ product, Products}) => {
     const { image, name, details, price } = product;
     return (
@@ -51,6 +53,17 @@ const ProductDetails = ({ product, Products}) => {
                     <button type='button' className='buy-now' onClick=''>Buy Now</button>
                 </div>
             </div>
+        </div>
+        <div className='maylike-products-wrapper'>
+                <h2>You May Also Like</h2>
+                <div className='marquee'>
+                    {/* <div className='maylike-products-container track'>
+                        {products.map((item) => (
+                            <Product key={item._id}
+                            product = {item} />
+                        ))}
+                    </div> */}
+                </div>
         </div>
     </div>
     )
