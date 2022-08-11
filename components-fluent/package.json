@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@stripe/stripe-js": "1.25.0",
     "canvas-confetti": "1.5.1",
     "express": "^4.18.1",
+    "heroku": "^7.62.0",
     "next": "12.2.4",
     "next-sanity-image": "^3.2.1",
     "react": "18.2.0",
